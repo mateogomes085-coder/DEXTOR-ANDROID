@@ -1,0 +1,73 @@
+DEXTOR · APK ANDROID · LISTO PARA GITHUB
+========================================
+
+Este proyecto está preparado para que GitHub Actions genere
+el archivo DEXTOR.apk automáticamente.
+
+PASOS
+-----
+
+1. Creá un repositorio nuevo en GitHub.
+   Nombre sugerido:
+   dextor-android
+
+2. Subí TODOS los archivos y carpetas de este ZIP a la raíz
+   del repositorio.
+
+   Tiene que verse algo así:
+
+   .github/
+   app/
+   build.gradle
+   gradle.properties
+   settings.gradle
+   README_IMPORTANTE.txt
+
+3. En GitHub entrá a:
+
+   Actions
+
+4. Elegí:
+
+   Crear APK DEXTOR
+
+5. Tocá:
+
+   Run workflow
+
+6. Esperá a que termine con tilde verde.
+
+7. Abrí la ejecución terminada.
+
+8. Abajo, en "Artifacts", descargá:
+
+   DEXTOR-Android
+
+9. Descomprimí ese archivo.
+
+10. Adentro vas a encontrar:
+
+    DEXTOR.apk
+
+11. Subí DEXTOR.apk a la raíz de tu repositorio principal
+    de la página DEXTOR.
+
+12. Vercel lo va a publicar en:
+
+    https://dextorarg.vercel.app/DEXTOR.apk
+
+13. El botón que ya agregamos en tu dashboard va a funcionar
+    porque apunta exactamente a:
+
+    /DEXTOR.apk
+
+
+IMPORTANTE
+----------
+
+- No subas solamente este ZIP a GitHub: descomprimilo y subí
+  el contenido.
+- El APK generado por Actions es una compilación DEBUG,
+  suficiente para instalar y probar en Android.
+- Para publicar oficialmente en Google Play, después conviene
+  crear una versión RELEASE firmada con una clave propia.
